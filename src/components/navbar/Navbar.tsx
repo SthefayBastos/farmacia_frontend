@@ -30,8 +30,9 @@ function Navbar() {
                     </div>
 
                     <div className='flex place-content-end gap-6 items-center'>
+                       <Link to='/categorias' className="hover:text-green-300 font-bold"> Categorias</Link>
                         <Link to='/cadastrarcategoria' className="hover:text-green-300 font-bold">Cadastrar Categoria</Link>
-                        <Link to='' className="hover:text-green-300 font-bold"><Basket size={32} /></Link>
+                       
                             
                     </div>
 
