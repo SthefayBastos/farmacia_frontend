@@ -1,3 +1,4 @@
+import ListaCategorias from "../categoria/listarcategorias/ListarCategorias";
 
 
 function Home() {
@@ -16,10 +17,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div id="imagem" className="
-                        flex 
-                        justify-center
-                        ">
+                        <div id="imagem" className=" flex  justify-center">
                             <img
                                 src="src/assets/img/Ecommerce checkout laptop-bro.png"
                                 alt="Imagem da Página Home"
@@ -28,7 +26,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                
+                <ListaCategorias/>
             </>
             );
 }

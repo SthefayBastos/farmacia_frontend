@@ -1,4 +1,4 @@
-import { Basket } from "@phosphor-icons/react"
+
 import { Link } from "react-router-dom"
 
 function Navbar() {
